@@ -1,12 +1,8 @@
 {
   "name": "creativegallery",
   "version": "1.0.0",
-  "description": "Creative Tours Bolivia and Beyond multimedia gallery",
+  "description": "Creative Tours Bolivia and Beyond, Multimedia Gallery",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +14,6 @@
     "Creative",
     "Tours",
     "Bolivia",
-    "Multimedia",
     "Gallery"
   ],
   "author": "Nestor Otondo <nestor.otondo@creativetours.com.bo>",
@@ -26,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/NestorCreative/creative-gallery/issues"
   },
-  "homepage": "https://github.com/NestorCreative/creative-gallery#readme"
+  "homepage": "https://github.com/NestorCreative/creative-gallery#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
